@@ -32,11 +32,20 @@
                             <outlet property="delegate" destination="mv3-W2-PDi" id="xqD-N6-Qua"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="jMy-SG-JUW"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Todoey" id="jMy-SG-JUW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="I9o-mh-CJt">
+                            <color key="tintColor" red="0.13744601668220857" green="1" blue="0.53246252981000142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="mv3-W2-PDi" id="RCR-kz-Ijd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iiy-sR-tCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-159" y="6"/>
+            <point key="canvasLocation" x="-529" y="2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="agc-os-3bz">
@@ -55,7 +64,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Tj-qA-oh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-822" y="6"/>
+            <point key="canvasLocation" x="-1849" y="3"/>
         </scene>
     </scenes>
 </document>
